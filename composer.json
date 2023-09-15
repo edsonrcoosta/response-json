@@ -1,0 +1,20 @@
+{
+    "name": "edsonr-coosta/response-json",
+    "description": "O Projeto Response é uma biblioteca PHP para criar respostas JSON com códigos de status HTTP personalizados, simplificando o desenvolvimento de APIs web eficazes em projetos PHP.",
+    "type": "library",
+    "license": "GPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Edson Costa",
+            "email": "edsonrcostan@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Negotel\\Response\\": "source/"
+        }
+    },
+    "require": {
+        "php": ">=7.4"
+    }
+}
