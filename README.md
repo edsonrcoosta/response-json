@@ -13,7 +13,7 @@ Agora, siga os passos abaixo para instalar o projeto Response:
 2. Execute o seguinte comando para adicionar o projeto Response como uma dependência:
 
    ```bash
-   composer require seu-nome-de-usuario/response
+   composer require edsonr-coosta/response-json
    ```
 
    Certifique-se de substituir `seu-nome-de-usuario` pelo seu nome de usuário no Packagist ou pelo nome da organização, se aplicável.
