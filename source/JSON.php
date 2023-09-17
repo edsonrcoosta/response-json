@@ -99,20 +99,20 @@ class JSON
     /**
      * Cria uma resposta HTTP 401 Unauthorized.
      */
-    public static function notAuthorized()
+    public static function notAuthorized(string $message = "Not Authorized")
     {
         self::setStatus(401);
-        self::setData(['message' => 'Not Authorized']);
+        self::setData(['message' => $message]);
         self::send();
     }
 
     /**
      * Cria uma resposta HTTP 403 Forbidden.
      */
-    public static function forbidden()
+    public static function forbidden(string $message = "Forbidden")
     {
         self::setStatus(403);
-        self::setData(['message' => 'Forbidden']);
+        self::setData(['message' => $message]);
         self::send();
     }
 
